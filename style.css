@@ -1,8 +1,21 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html, body{
+height: 5000px;
+}
 body{
+  background-color: #fff;
   background-image: url('./temp1.png');
-  height: 5000px;
-  background-repeat: no-repeat;
-  background-size: cover;
   width: 100%;
-  
+  background-repeat: no-repeat;
+   -webkit-background-size: cover 100%;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
